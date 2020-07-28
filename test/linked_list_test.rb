@@ -1,7 +1,7 @@
-require 'minitest/autorun'
 require 'pry'
 require './lib/linked_list'
 require "./lib/node"
+require 'minitest/autorun'
 class LinkedListTest < Minitest::Test
   def test_linked_list
     @list = LinkedList.new
