@@ -1,4 +1,4 @@
-require "./node"
+require "./lib/node"
 
 class LinkedList
   attr_reader :head
@@ -15,10 +15,3 @@ class LinkedList
   end
 
 end
-
-list = LinkedList.new
-
-p list.head
-list.append("Cohan")
-p list.head
-p list.to_string
